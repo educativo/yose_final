@@ -1,0 +1,57 @@
+﻿@model seminario_proyecto.Models.regTipo
+@{
+    ViewBag.Title = "ReTipo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+          <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+            </ul> 
+        </div>
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<center><h5>REGISTRAR NUEVO TIPO</h5></center>
+<fieldset class="f1">
+  <legend>Registrar</legend>
+
+  <table>
+  @using (Html.BeginForm())
+  {
+      
+        <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td></tr>
+        <tr><td>Descripcion:</td><td>@Html.TextBoxFor(a => a.descri)</td></tr>
+        <tr><td>Precio</td><td>@Html.TextBoxFor(a => a.precio)</td></tr>
+        <tr><td colspan ="2" scope="row"> <input type="submit" value="REGISTRAR" ></td></tr> 
+        
+  } 
+ </table>
+  
+</fieldset>
+  
+ </section>  
+    
+  

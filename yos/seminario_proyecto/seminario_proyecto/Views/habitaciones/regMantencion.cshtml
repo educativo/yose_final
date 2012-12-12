@@ -1,0 +1,76 @@
+﻿@model seminario_proyecto.Models.mantencion
+@{
+    ViewBag.Title = "regMantencion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+<script>
+    $(document).ready(function () {
+        $("#fecha").datepicker();
+        $("#fecha2").datepicker();
+        
+    });
+</script>
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+            </ul> 
+        </div>
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+
+
+<section class="cuerpo">
+<center><h5>REGISTRAR NUEVO MANTENIMIENTO</h5></center>
+<fieldset class="f1">
+  <legend>Registrar</legend>
+
+  <table>
+  @using(Html.BeginForm())
+  {
+      
+        <text><tr><td>Codigo de Habitacion:</td><td>
+        <select id="tip" name="tip">
+        </text> 
+            foreach (var item in ViewBag.habit)
+            {
+                <text><option id="@item.id" >
+                    @item.id
+                </option></text>
+            }
+          
+        <tr><td>Fecha Inicio:</td><td> @Html.TextBoxFor(a=>a.fecha)</td></tr>
+        <tr><td>fecha Final:</td><td> @Html.TextBoxFor(a=>a.fecha2)</td></tr>
+        <tr><td colspan ="2"><center> <input type="submit" value="REGISTRAR" ></center></td></tr> 
+        
+      
+  } 
+ </table>
+  
+</fieldset>
+  
+ </section>  
+    
+  

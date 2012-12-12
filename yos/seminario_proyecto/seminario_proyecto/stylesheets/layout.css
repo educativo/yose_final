@@ -1,0 +1,446 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+*{
+padding:0px;
+margin:0px;
+}
+html{
+width:100%;
+height:100%;
+}
+
+#header{
+
+padding:33px 0 0 0;
+text-align:center;
+}
+#logo{
+display:block;
+}
+#center{
+width:335px;
+float:left;
+}
+
+
+body 
+{
+   
+   /* background:url("../images/fullscreen.jpg");*/
+    background-color:#888888;
+	margin: 0;
+
+	padding:0;
+
+	font-family: Times New Roman, Helvetica, sans-serif;
+
+	font-size: 13px;
+
+	line-height: 1.5em;
+
+}
+.container .sixteen.columns   
+{
+    
+}
+.mainmenu ul li{
+    
+	 display:inline-block;
+	 
+   }
+ .a-btn {
+    background:#860202;
+    background:-moz-linear-gradient(#860202, #678);
+    background:-webkit-linear-gradient(#860202, #678);
+    background:-o-linear-gradient(#860202, #678);
+    background:-ms-linear-gradient(#860202, #678);
+    background:-linear-gradient(#860202, #678);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#CDE', endColorstr='#678',GradientType=0 );
+    border:1px solid #89A;
+    border-radius:20px;
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    display:inline-block;
+    height:30px;
+    line-height: 30px;
+    margin:10px 0px;
+    padding: 0 70px 0 20px; /* esto dependerá del tamaño de la imagen */
+    position:relative;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    -ms-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+  }
+
+  /* el texto visible */
+  .a-btn-text {
+    color:#ffffff;
+    display:block;
+    font-size:20px;
+    text-shadow:0 1px 1px #FFF;
+    white-space:nowrap;
+    -moz-transition:all 0.2s linear;
+    -webkit-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    -ms-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+  }
+
+  /* el texto oculto */
+  .a-btn-slide-text {
+    background:#fbbebe;
+    color:#FFF;
+    font-size:20px;
+    font-family: Georgia;
+    height:100%;
+    line-height:40px;
+    overflow:hidden;
+    position:absolute;
+    right:52px;
+    text-align:left;
+    text-indent:10px;
+    text-shadow:1px 1px 1px #000;
+    top:0px;
+    white-space:nowrap;
+    width:0;
+    -moz-transition:width 0.3s linear;
+    -webkit-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    -ms-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+  }
+
+  /* el contenedor de la imagen derecha */
+  .a-btn-icon-right {
+    border-left:1px solid #89A;
+    box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    width:40px;
+  }
+  /* y la imagen */
+  .a-btn-icon-right span {
+    background:transparent url(arrow_right.png) no-repeat 50% 55%;
+    height:35px;
+    left:40%;
+    margin:-20px 0px 0px -20px;
+    opacity:0.7;
+    position:absolute;
+    top:50%;
+    width:30px;
+    -moz-transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    -ms-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+  }
+
+  /* los efectos hover */
+  .a-btn:hover {
+    padding-right:180px;
+  }
+  .a-btn:hover .a-btn-text {
+    color:#000;
+    text-shadow:0px 1px 1px #000;
+  }
+  .a-btn:hover .a-btn-slide-text {
+    width:100px;
+  }
+  .a-btn:hover .a-btn-icon-right span {
+    opacity:1;
+  }
+
+
+/* Menu Section 
+  .container .sixteen.columns   {
+      
+   }
+   .mainmenu ul{
+  
+   margin:0px;
+   
+   }
+   .mainmenu ul li{
+   align:center;
+    
+	 display:inline-block;
+	 margin:0 auto;
+	 height:40px;
+	 width:120px;
+	 background: url(../images/templatemo_menu_bg.jpg) repeat-x;
+	 box-shadow:0px 0px 10px #000;
+   }
+   .mainmenu ul li a{
+   align:center;
+     display:block;
+     margin-top:10px;
+     color:#fff;
+	 text-decoration:none;
+	 text-align:center;
+	 font-size: 14px;
+	 
+   }
+
+
+*/
+
+section.cuerpo
+{
+	margin-top:10px;
+	width:50%;
+	min-width:730px;
+	min-height:400px;
+display:inline-block;
+}
+aside
+{
+	display:inline-block;
+	vertical-align:top;
+	width:22%;
+	min-height:400px;
+	margin-top:10px;
+}
+/*para el  pie de pagina*/
+#footer{
+width:1001px;
+float:left;
+height:70px;
+background:url(../images/footer_bg.jpg) top    left no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#574621;
+}
+#footer ul{
+width:1000px;
+text-align:center;
+}
+#footer li{
+display:inline;
+list-style-type:none;
+line-height:44px;
+}
+#footer li a{
+color:#574621;
+text-decoration:none;
+margin:0 10px;
+}
+#footer li a:visited{text-decoration:none}
+#footer li a:hover{text-decoration:underline}
+
+section.cuerpo,aside
+{
+	background:#CC9999;
+	border-radius:20px;
+	aling:center;
+}
+/*
+
+footer .pie ul{
+width:1000px;
+text-align:center;
+}
+footer .pie li{
+display:inline;
+list-style-type:none;
+line-height:44px;
+}
+footer .pie li a{
+color:#574621;
+text-decoration:none;
+margin:0 10px;
+*/
+
+
+/*para las imagenes*/
+#photogallery{
+width:271px;
+float:left;
+margin:-30px 0 0 0;
+padding:0px;
+}
+#photogallery #title{
+margin:-25px 0 0 -37px;
+background:none;
+padding:0 0 14px 0;
+}
+.photos{
+margin:25px 0 0 0;
+padding:0 45px 7px 37px;
+background:url(../images/bg_gallery.gif) bottom left repeat-y;
+}
+.photos img{
+background:url(../images/photo_bg.gif) top left no-repeat;
+padding:14px 15px 20px 15px;
+}
+#photogallery span{
+display:block;
+width:188px;
+text-align:center;
+padding:0 0 10px 0;
+}
+#photogallery #all img{
+display:block;
+margin:8px 0 0 14px;
+background:none
+}
+
+#sidebar .block p{
+display:block;
+width:275px;
+margin:0 0 15px 20px;
+}
+.map{
+padding:0 0 8px 10px;
+}
+#sidebar .block{
+float:left;
+}
+#sidebar .block a{
+display:block;
+margin:0 0 0 26px;
+margin:0 0 0 13px;
+float:left;
+color:#006CCE;
+text-decoration:underline;
+}
+#sidebar .block a:visited{text-decoration:underline}
+#sidebar .block a:hover{text-decoration:none}
+#sidebar .block .more{
+margin:0 145px 0 26px;
+/ margin:0 145px 0 13px;
+}
+#center{
+width:335px;
+float:left;
+}
+#center h4{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:center;
+color:#916422;
+text-transform:uppercase;
+margin:0 0 10px 0px;
+padding:0 0 9px 0;
+background:url(../images/dots.gif) bottom left repeat-x;
+display:block;
+width:280px;
+float:left;
+}
+#center p{
+display:block;
+width:280px;
+padding:0 0 10px 0px;
+}
+.more{
+background:url(../images/arrow.gif) left 3px no-repeat;
+margin:0 0 0 5px;
+padding:0 0 0 10px;
+color:#006CCE;
+}
+.more:visited{text-decoration:underline}
+.more:hover{text-decoration:none}
+#center .block{
+padding:0 0 37px 0;
+}
+
+
+#menuv 
+{
+    aling:center;
+
+        border: 1px solid #ACCFE8;
+
+        border-width: 1px 1px 0 1px;
+
+        width: 150px;
+
+        font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-radius:10px 10px 10px 10px;
+
+}
+h5
+{
+    font-family:Lucida Handwriting;
+    font-size:16px;
+
+border-right-style: double;
+border-bottom-style: dashed;
+border-left-style: groove;    
+}
+
+#menuv ul, li {
+
+        list-style-type: none;
+
+}
+
+
+
+#menuv ul {
+
+        margin: 0;
+
+        padding: 0;
+
+}
+
+
+
+#menuv li {
+
+        border-bottom: 1px solid #ACCFE8;
+
+}
+
+
+
+#menuv a {
+
+        text-decoration: none;
+
+        color: #ffffff;
+
+        background: #571110;
+
+        display: block;
+
+        padding: 3px 6px;
+
+        width: 138px;
+
+}
+
+
+
+#menuv a:hover {
+
+        background: #ff8484;
+
+}
+

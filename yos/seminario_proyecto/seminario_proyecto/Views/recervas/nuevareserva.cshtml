@@ -1,0 +1,291 @@
+﻿@model seminario_proyecto.Models.reserva1
+@{
+    ViewBag.Title = "nuevareserva";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+        $("#fech-ini").datepicker({ monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            dateFormat: 'yy/mm/dd'
+        });
+        $("#fech-fin").datepicker({ monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+            dateFormat: 'yy/mm/dd'
+        });
+        $.post("/recervas/vecliente", {},
+        function (data) {
+            // alert(data.nombres);
+            $("#nombreapellido").autocomplete({ source: data.nombres });
+        }, "json");
+
+
+        $("#drag").draggable();
+        $("#tabs").tabs({ "disabled": [1, 2, 3] });
+
+        $("#sig").click(function (e) {
+            e.preventDefault();
+            $("#tabs").tabs({ "disabled": [2, 3] });
+            $("#tabs").tabs({ "selected": [1] })
+        });
+
+
+        $("#aparecer").click(function (e) {
+            e.preventDefault();
+            $("#reg").css("display", "block");
+        })
+        $('#fo').submit(function () {
+            // Enviamos el formulario usando AJAX
+
+            $.ajax({
+                type: 'POST',
+                url: $(this).attr('action'),
+                data: $(this).serialize(),
+                // Mostramos un mensaje con la respuesta de PHP
+                success: function (data) {
+                    $('#result').html(data);
+                }
+            })
+
+            $.post("/recervas/vecliente", {},
+                function (data) {
+                    $("#nombreapellido").autocomplete({ source: data.nombres });
+                }, "json");
+            $("#percli_nombre").attr("value", "");
+            $("#percli_apelli").attr("value", "");
+            $("#percli_telefono").attr("value", "");
+            $("#percli_pasaporte").attr("value", "");
+            $("#percli_direccion").attr("value", "");
+            $("#percli_email").attr("value", "");
+            $("#percli_pais").attr("value", "");
+            $("#percli_ciudad").attr("value", "");
+            $("#percli_estado").attr("value", "");
+            $("#percli_cumple").attr("value", "");
+            $("#percli_comen").attr("value", "");
+            return false;
+        });
+
+
+        $('#insertar').submit(function () {
+            $("#id").attr("value", $("#tip").attr("value"));
+            $("#fechaini").attr("value", $("#fech-ini").attr("value"));
+            $("#fechafinal").attr("value", $("#fech-fin").attr("value"));
+            $.ajax({
+                type: 'POST',
+                url: $(this).attr('action'),
+                data: $(this).serialize(),
+                // Mostramos un mensaje con la respuesta de PHP
+                success: function (data) {
+                    $('#result').html(data);
+                }
+            })
+
+            $.post("/recervas/Resumen", { "idhabi": $("#tip").attr("value"), "fechaini": $("#fech-ini").attr("value"), "fechafin": $("#fech-fin").attr("value"),"nombress" :$("#nombreapellido").attr("value")},
+                function (datos) {
+                    //$("#nombree").text(datos.cliente.nombre);
+                    
+                    $("#nombree").text(datos[0]);
+                    $("#apellidoo").text(datos[1]);
+                    $("#fechainii").text(datos[2]);
+                    $("#fechafinn").text(datos[3]);
+                    $("#tipoo").text(datos[4]);
+                    $("#precio").text(datos[5]);
+                }, "json");
+
+
+            alert("recervas realizada");
+
+            $("#tabs").tabs({ "disabled": [1, 3] });
+            $("#tabs").tabs({ "selected": [2] })
+            return false;
+        });
+
+    })
+</script>
+<style>
+     .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 14px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+.letra
+{
+    font:Copperplate Gothic Bold;
+    font-size:16px;
+    
+ }
+ #sig2
+ {
+     text-align:right;  
+   }
+   .c
+   {
+    margin-top:10px;
+	width:100%;
+	min-width:730px;
+	min-height:400px;
+   display:inline-block;
+   background:#CC9999;
+	border-radius:20px;
+	aling:center;
+    }
+   
+
+</style>
+
+
+
+<section class="c">
+<h5>Nueva Recerva</h5>
+    <div>
+        <div id="tabs">
+            <ul>
+                <li>
+                    <a href="#tab1">Habitaciones</a>
+                </li>
+                <li>
+                    <a href="#tab2">Factura</a>
+                </li>
+                <li>
+                    <a href="#tab4">Resumen</a>
+                </li>
+            </ul>
+            <div id="tab1">
+                <table  class="tabla">
+                @using (Html.BeginForm())
+                {<br />
+                    
+                     <div>   
+                        <input type="radio" name=myradio value="1" >Pending &nbsp;&nbsp
+                        <input type="radio" name=myradio value="2" checked>Confirmed &nbsp;&nbsp
+                        <input type="radio" name=myradio value="3" >Checked in &nbsp;&nbsp
+                        <input type="radio" name=myradio value="3" >Checked Out
+                     </div>
+                    <br />
+                    <br/>
+                    <tr><td>Codigo de Habitacion:</td><td>
+                    <select id="tip" name="tip">
+                    
+                    @foreach (var item in ViewBag.habit)
+                    {
+                            <text><option id="@item.id" >
+                                @item.id
+                            </option></text>
+                    }
+                    </select>
+                    </td></tr>
+            
+                    <tr><td>Fecha Inicio:</td><td><input type="text" id="fech-ini" /></td></tr>
+                    <tr><td>fecha Final:</td><td> <input type="text" id="fech-fin" /></td></tr>
+                    
+                }
+                     </table>
+
+                <br/>
+                <a href="" id="sig">Siguiente -></a>
+                
+            </div>
+            
+            <div id="tab2">
+            
+            <h5>Nombre del cliente</h5>    
+            @using (Html.BeginForm("nuevareserva", "recervas", FormMethod.Post, new { id = "insertar" }))
+            {
+                @Html.HiddenFor(a => a.id)
+                @Html.HiddenFor(a => a.fechaini)
+                @Html.HiddenFor(a => a.fechafinal)
+                @Html.TextBoxFor(a => a.nombreapellido)
+                <input type="submit" value="Guardar recerva">
+              
+            }
+            <a href="#" id="aparecer">Registrar un nuevo cliente</a><br />
+           
+            
+          
+
+            <div style="display:none" id="reg">
+                     <table>
+                      @using (Html.BeginForm("registrarcliente", "recervas", FormMethod.Post, new { id = "fo" }))
+                      {
+                          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.percli.nombre)</td><td>Apellido:</td><td>@Html.TextBoxFor(a => a.percli.apelli)</td></tr> 
+                          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.percli.telefono)</td><td>Pasaporte:</td><td>@Html.TextBoxFor(a => a.percli.pasaporte)</td></tr>
+                          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.percli.direccion)</td><td>Email:</td><td>@Html.TextBoxFor(a => a.percli.email)</td></tr>
+                          
+                          <tr><td>Pais:</td><td>
+                                <select id="pais" name="pais"> 
+            
+                                <option id="Argentina" >
+                                    Argentina
+                                </option>
+                                <option id="Bolivia" selected >
+                                    Bolivia
+                                </option>
+                                <option id="Peru" >
+                                    Peru
+                                </option>
+                                <option id="Paraguay" >
+                                    Paraguay
+                                </option>
+                                <option id="Uruguay" >
+                                    Uruguay
+                                </option>
+                                <option id="Venezuela" >
+                                    Venezuela
+                                </option>
+                                <option id="Colombia" >
+                                    Colombia
+                                </option>
+                
+                        </select> </td>
+                          <td>Ciudad:</td><td>@Html.TextBoxFor(a => a.percli.ciudad)</td></tr>
+                          <tr><td>Estado:</td><td>@Html.TextBoxFor(a => a.percli.estado)</td><td>Fecha Nacimiento:</td><td>@Html.TextBoxFor(a => a.percli.cumple)</td></tr>
+                          <tr><td>Comentario:</td><td>@Html.TextAreaFor(a => a.percli.comen)</td></tr>
+                          <tr><td colspan ="4"><center> <input type="submit" value="REGISTRAR"></center></td></tr> 
+                      } 
+                      </table>
+                      
+  
+
+              </div>
+         
+        
+            </div>
+
+            <div id="tab4">
+                   
+                  <div><h5>DETALLE</h5></div>
+                  <table>
+                <tr><td><b> NOMBRE:</b></td><td><div id="nombree"></div></td></tr>
+                 <tr><td><b> APELLIDOS:</b></td><td> <div id="apellidoo"></div></td></tr>
+                <tr><td><b>TIPO DE HABITACION: </b></td> <td><div id="fechainii"></div></td></tr> 
+                  <tr><td><b> INICIO DE LA RECERVA: </b></td><td><div id="fechafinn"></div></td></tr>
+                 <tr><td><b>FINAL DE LA RESERVA:</b></td><td><div id="tipoo"></div></td></tr>
+                  <tr><td><b>PRECIO:</b> </td><td><div id="precio"></div></td></tr>
+                 </table>
+                                   
+            </div>
+            
+
+
+
+        </div>
+    </div>
+ </section>

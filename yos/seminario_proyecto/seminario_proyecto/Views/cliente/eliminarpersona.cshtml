@@ -1,0 +1,79 @@
+﻿@model seminario_proyecto.Models.clipersona
+@{
+    ViewBag.Title = "eliminarpersona";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../cliente/mostraragencia">AGENCIA</a></h5>
+          <br/>  
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<center> <h5>ELIMINAR PERSONA</h5></center>
+   
+   <div> 
+   <fieldset class="f1">
+    <legend>Eliminar</legend>
+    
+
+     <table border="3">
+    @if (ViewBag.flag == 0)
+    {
+        
+        using (Html.BeginForm())
+        {
+             <input type="submit" value="BUSCAR" > 
+             
+          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td><td>Apellido:</td><td>@Html.TextBoxFor(a => a.apelli)</td></tr> 
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono)</td><td>Pasaporte:</td><td>@Html.TextBoxFor(a => a.pasaporte)</td></tr>
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion)</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email)</td></tr>
+          <tr><td>Paiz:</td><td>@Html.TextBoxFor(a => a.pais)</td><td>Ciudad:</td><td>@Html.TextBoxFor(a => a.ciudad)</td></tr>
+          <tr><td>Contacto:</td><td>@Html.TextBoxFor(a => a.contacto)</td><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado)</td></tr>
+          <tr><td>Fecha Nacimiento:</td><td>@Html.TextBoxFor(a => a.cumple)</td><td>Comentario:</td><td>@Html.TextAreaFor(a => a.comen)</td></tr>
+           
+        }
+    }
+    else
+    {
+        using (Html.BeginForm("eliminar", "cliente"))
+        {
+          
+          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td><td>Apellido:</td><td>@Html.TextBoxFor(a => a.apelli, new { Value = @ViewBag.apellido })</td></tr> 
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono, new { Value = @ViewBag.telefono })</td><td>Pasaporte:</td><td>@Html.TextBoxFor(a => a.pasaporte, new { Value = @ViewBag.pasaporte })</td></tr>
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion, new { Value = @ViewBag.direccion })</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email, new { Value = @ViewBag.email })</td></tr>
+          <tr><td>Paiz:</td><td>@Html.TextBoxFor(a => a.pais, new { Value = @ViewBag.pais })</td><td>Ciudad:</td><td>@Html.TextBoxFor(a => a.ciudad, new { Value = @ViewBag.ciudad })</td></tr>
+          <tr><td>Contacto:</td><td>@Html.TextBoxFor(a => a.contacto, new { Value = @ViewBag.contacto })</td><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado, new { Value = @ViewBag.estado })</td></tr>
+          <tr><td>Fecha Nacimiento:</td><td>@Html.TextBoxFor(a => a.cumple, new { Value = @ViewBag.cumpleaños })</td><td>Comentario:</td><td>@Html.TextAreaFor(a => a.comen, new { Value = @ViewBag.comentario })</td></tr>
+          <tr><td colspan ="4" > <center> <input type="submit" value="ELIMINAR" ></center></td></tr> 
+           @Html.HiddenFor(a => a.id, new { Value = @ViewBag.id }) 
+        }
+    }
+      </table>
+  
+    </fieldset>
+    </div>
+   </section>  
+    

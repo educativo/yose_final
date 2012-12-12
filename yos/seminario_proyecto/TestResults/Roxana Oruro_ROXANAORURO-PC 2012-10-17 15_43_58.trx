@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3c931638-bda7-499c-8708-a5e096630448" name="Roxana Oruro@ROXANAORURO-PC 2012-10-17 15:43:58" runUser="RoxanaOruro-PC\Roxana Oruro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="08e100df-126b-48c4-bafd-50b4cbf230b5">
+    <Deployment runDeploymentRoot="Roxana Oruro_ROXANAORURO-PC 2012-10-17 15_43_58">
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.Mvc.4.0.20505.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebApi.Core.4.0.20505.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.Razor.2.0.20505.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebPages.2.0.20505.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.Net.Http.2.0.20505.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebApi.Client.4.0.20505.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20505.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-17T15:43:58.7541770-04:30" queuing="2012-10-17T15:44:04.9435310-04:30" start="2012-10-17T15:44:05.1065403-04:30" finish="2012-10-17T15:44:06.6466284-04:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\roxana oruro\desktop\otro\seminario_proyecto\seminario_proyecto.tests\bin\debug\seminario_proyecto.tests.dll" id="f3906d2e-f6b5-029a-dcee-b35ac0a3327e">
+      <Execution id="12808c61-b263-4093-b584-465e8219bd99" />
+      <TestMethod codeBase="C:/Users/Roxana Oruro/Desktop/otro/seminario_proyecto/seminario_proyecto.Tests/bin/Debug/seminario_proyecto.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="seminario_proyecto.Tests.Controllers.HomeControllerTest, seminario_proyecto.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="c:\users\roxana oruro\desktop\otro\seminario_proyecto\seminario_proyecto.tests\bin\debug\seminario_proyecto.tests.dll" id="f58332dd-82eb-b9b7-ecab-f277925bbd23">
+      <Execution id="e1e06fc1-6272-43ed-9eb2-d0fc5b7f42d7" />
+      <TestMethod codeBase="C:/Users/Roxana Oruro/Desktop/otro/seminario_proyecto/seminario_proyecto.Tests/bin/Debug/seminario_proyecto.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="seminario_proyecto.Tests.Controllers.HomeControllerTest, seminario_proyecto.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\roxana oruro\desktop\otro\seminario_proyecto\seminario_proyecto.tests\bin\debug\seminario_proyecto.tests.dll" id="7f23396c-0840-2d8d-5429-564333a8a195">
+      <Execution id="bad87fe9-adca-4e5a-bb85-becdbe2a68dc" />
+      <TestMethod codeBase="C:/Users/Roxana Oruro/Desktop/otro/seminario_proyecto/seminario_proyecto.Tests/bin/Debug/seminario_proyecto.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="seminario_proyecto.Tests.Controllers.HomeControllerTest, seminario_proyecto.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7f23396c-0840-2d8d-5429-564333a8a195" executionId="bad87fe9-adca-4e5a-bb85-becdbe2a68dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3906d2e-f6b5-029a-dcee-b35ac0a3327e" executionId="12808c61-b263-4093-b584-465e8219bd99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58332dd-82eb-b9b7-ecab-f277925bbd23" executionId="e1e06fc1-6272-43ed-9eb2-d0fc5b7f42d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bad87fe9-adca-4e5a-bb85-becdbe2a68dc" testId="7f23396c-0840-2d8d-5429-564333a8a195" testName="About" computerName="ROXANAORURO-PC" duration="00:00:00.1410629" startTime="2012-10-17T15:44:05.3385536-04:30" endTime="2012-10-17T15:44:06.4656180-04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bad87fe9-adca-4e5a-bb85-becdbe2a68dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="12808c61-b263-4093-b584-465e8219bd99" testId="f3906d2e-f6b5-029a-dcee-b35ac0a3327e" testName="Index" computerName="ROXANAORURO-PC" duration="00:00:00.0516349" startTime="2012-10-17T15:44:06.4736185-04:30" endTime="2012-10-17T15:44:06.5346220-04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12808c61-b263-4093-b584-465e8219bd99">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1e06fc1-6272-43ed-9eb2-d0fc5b7f42d7" testId="f58332dd-82eb-b9b7-ecab-f277925bbd23" testName="Contact" computerName="ROXANAORURO-PC" duration="00:00:00.0046482" startTime="2012-10-17T15:44:06.5396223-04:30" endTime="2012-10-17T15:44:06.5696240-04:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1e06fc1-6272-43ed-9eb2-d0fc5b7f42d7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,79 @@
+﻿@model seminario_proyecto.Models.RegHabitacion
+@{
+    ViewBag.Title = "registrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+            </ul> 
+        </div>
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+
+<center><h5>REGISTRAR HABITACION</h5></center>
+
+<fieldset class="f1">
+  <legend>Registrar</legend>
+
+  <table>
+  @using (Html.BeginForm())
+  {
+      
+        <tr><td>Tipo:</td><td>
+        <select id="tip" name="tip"> 
+            @foreach (var item in ViewBag.tipo)
+            {
+                <option id="@item.id" >
+                    @item.nombre
+                </option>
+            }
+            
+        </select> </td></tr>
+      <tr><td>Estado:</td><td>
+                <select id="estado" name="estado"> 
+            
+                <option id="Ocupado" >
+                    Ocupado
+                </option>
+                <option id="Libre" >
+                    Libre
+                </option>
+        </select> </td></tr>
+      
+       
+        <tr><td colspan ="2" scope="row"><center> <input type="submit" value="REGISTRAR" ></center></td></tr> 
+        
+  } 
+ </table>
+  
+</fieldset>
+  
+ </section>  
+    
+ 

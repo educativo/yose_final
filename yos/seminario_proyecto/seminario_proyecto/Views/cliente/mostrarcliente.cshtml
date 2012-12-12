@@ -1,0 +1,100 @@
+﻿@model seminario_proyecto.Models.clipersona
+@{
+    ViewBag.Title = "mostrarcliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+ .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+.letra
+{
+    font:Copperplate Gothic Bold;
+    font-size:16px;
+    
+ }
+ .ingreso
+ {
+     text-align:right;  
+   }
+
+</style>
+
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../cliente/mostraragencia">AGENCIA</a></h5>
+          <br/>  
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<h2 class="letra"><center>PERSONAS </center></h2>
+<center>
+<table  class="tabla">
+<tr><th>Nombre:</th><th>Telefono</th><th>Direccion</th><th>Email</th><th>Pais</th><th></th><th></th></tr>
+@foreach (var item in ViewBag.lista)
+{
+
+    string y = @item.id.ToString();
+    <tr><td>@item.nombre</td><td>@item.telefono</td><td>@item.direccion</td><td>@item.email</td><td>@item.pais</td>
+    
+    <td> @Html.ActionLink("editar", "../cliente/actualizarpersona", new { id = y})</td>
+    <td> @Html.ActionLink("eliminar", "../cliente/eliminar", new { id = y})</td>
+
+    </tr>
+    
+    <!--<td><a href="../cliente/actualizarpersona" class="editarcli"  title="Editar"><img alt="sv2" src="../../images/editar.jpg" /></a></td>
+    <td><a href="../cliente/eliminarpersona" class="eliminarcli"  title="Eliminar"><img alt="sv2" src="../../images/borrar1.jpg" /></a></td>-->
+
+}
+</table>
+</center>
+<br/>
+<br/>
+<br/>
+<div class="ingreso">
+    <h5><a href="../cliente/RegistrarPersona">Registrar nuevo cliente</a></h5>
+</div>
+
+</section>

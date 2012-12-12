@@ -1,0 +1,137 @@
+﻿@model seminario_proyecto.Models.servicios1
+@{
+    ViewBag.Title = "registrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <style>
+ .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+.letra
+{
+    font:Copperplate Gothic Bold;
+    font-size:16px;
+    
+ }
+ .ingreso
+ {
+     text-align:right;  
+   }
+
+</style>
+
+    <aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="../habitaciones/mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+                <li><a href="../csv/uploadservicios">Importar</a></li>
+                <li><a href="../csv/exportarCsvservi">Exportar</a></li>
+                
+            </ul> 
+        </div>
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+
+<center><h5>REGISTRAR SERVICIO</h5></center>
+
+<fieldset class="f1">
+  <legend>Registrar</legend>
+
+  
+  @using (Html.BeginForm())
+  {
+      <lo>
+         <li>Categoria:
+        <select id="categoria" name="categoria"> 
+            @foreach (var item in ViewBag.cate)
+            {
+                <option id="@item.id" >
+                    @item.nombre
+                </option>
+            }
+            
+      </select></li>
+       <li>
+      Servicio:
+      @Html.TextBoxFor(a=>a.servicio)
+      </li>
+      <li>
+      Precio:
+      @Html.TextBoxFor(a => a.precio)
+      
+      </li> 
+      <li>
+        <input type="submit" value="REGISTRAR" />
+        </li>
+      </lo>  
+  } 
+ 
+
+ <table  class="tabla">
+<tr><th>Categoria:</th><th>Servisio</th><th>Precio</th><th></th></tr>
+@foreach (var item in ViewBag.lista2)
+{
+
+    string y = @item.id.ToString();
+    <tr><td>@item.categoria_nombre</td><td>@item.servicio_nombre</td><td>@item.precio</td>
+    
+    
+    <td> @Html.ActionLink("eliminar", "../servicios/eliminar2", new { id = y})</td>
+
+    </tr>
+    
+    <!--<td><a href="../cliente/actualizarpersona" class="editarcli"  title="Editar"><img alt="sv2" src="../../images/editar.jpg" /></a></td>
+    <td><a href="../cliente/eliminarpersona" class="eliminarcli"  title="Eliminar"><img alt="sv2" src="../../images/borrar1.jpg" /></a></td>-->
+
+}
+</table>
+
+</fieldset>
+  
+ </section>  
+    

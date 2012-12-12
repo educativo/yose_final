@@ -1,0 +1,219 @@
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+D:\seminario\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll.config
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto.Tests\obj\Debug\seminario_proyecto.Tests.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto.Tests\bin\Debug\LumenWorks.Framework.IO.dll

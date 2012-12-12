@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+#c{
+margin-top:10px;
+	width:100%;
+	min-width:730px;
+	min-height:400px;
+   display:inline-block;
+   background:#ffffcc;
+	border-radius:20px;
+	aling:center;
+    
+    }
+    </style>
+<table border="3" id="c">
+    <tr>
+        <th colspan="7">
+            <b><h1>DASHBOARD</h1></b>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <b>Hab.</b>
+        </th>
+        <th>
+            Lunes
+        </th>
+        <th>
+            Martes
+        </th>
+        <th>
+            Miercoles
+        </th>
+        <th>
+            Jueves
+        </th>
+        <th>
+            Viernes
+        </th>
+        <th>
+            Sabado
+        </th>
+        <th>
+            Domingo
+        </th>
+    </tr>
+    <tr>
+        <td>
+        @foreach (var f in ViewBag.fechas)
+        {
+            <td>
+           @f
+           </td>
+        }
+        </td>
+    </tr>
+    @foreach (var item in ViewBag.info)
+    {
+        <tr>
+            <td>
+                @item.id
+            </td>
+            @if(@item.reservas.Count>0)
+            {
+                foreach(var rr in item.reservas)
+                {
+                    foreach(var ff in ViewBag.fechas)
+                    {
+                        if(rr.fechainicial==ff)
+                        {
+                            <td colspan="@rr.dia"><div class="pintar"></div></td>   
+                            continue;
+                        }
+                        else
+                        {
+                            <td></td>
+                        }
+                    }
+                }
+            }
+            else
+            {
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            }
+        </tr> 
+    }
+</table>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminario_proyecto", "seminario_proyecto\seminario_proyecto.csproj", "{ADB5C0B1-3454-457C-9A8B-9A61B41AC98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminario_proyecto.Tests", "seminario_proyecto.Tests\seminario_proyecto.Tests.csproj", "{1ABAFB50-9936-4D43-A3CB-2CDA7C800289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB5C0B1-3454-457C-9A8B-9A61B41AC98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB5C0B1-3454-457C-9A8B-9A61B41AC98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB5C0B1-3454-457C-9A8B-9A61B41AC98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB5C0B1-3454-457C-9A8B-9A61B41AC98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABAFB50-9936-4D43-A3CB-2CDA7C800289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABAFB50-9936-4D43-A3CB-2CDA7C800289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABAFB50-9936-4D43-A3CB-2CDA7C800289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABAFB50-9936-4D43-A3CB-2CDA7C800289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

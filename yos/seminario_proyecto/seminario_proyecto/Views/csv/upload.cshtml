@@ -1,0 +1,114 @@
+﻿@model seminario_proyecto.Models.ArchivoFile
+@{
+    ViewBag.Title = "upload";
+}
+<style>
+     .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+</style>
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../cliente/mostraragencia">AGENCIA</a></h5>
+          <br/>  
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<h2>Importar</h2>
+<form action="../csv/upload" method="post" enctype="multipart/form-data">
+  <input type="submit" name="archivo" id="archivo" />
+  <input type="file" name="archivo" value="subir" />
+</form>
+
+
+@if (ViewBag.lista != null)
+{ 
+    <table class="tabla">
+        <tr>
+           
+            <th>Nombre</th>
+            <th>Telefono</th>
+            <th>Direccion</th>
+            <th>Email</th>
+            <th>Ciudad</th>
+            <th>Estado</th>
+            <th>Pais</th>
+           
+        </tr>
+    
+    @foreach (var item in ViewBag.lista)
+    { 
+            <tr>
+                
+               <td>
+                @item.nombre
+               </td>
+               <td>
+                @item.telefono
+               </td>
+               <td>
+                @item.direccion
+               </td>
+               <td>
+                @item.email
+               </td>
+               <td>
+                @item.ciudad
+               </td>
+               <td>
+                @item.estado
+               </td>
+               <td>
+                @item.pais
+               </td>
+            
+               
+              
+            </tr>
+    }
+    </table>
+}
+</section>

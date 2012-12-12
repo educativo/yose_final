@@ -1,0 +1,80 @@
+﻿@model seminario_proyecto.Models.cliagencia
+@{
+    ViewBag.Title = "actualizaragencia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../cliente/mostraragencia">AGENCIA</a></h5>
+          <br/>  
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+
+<section class="cuerpo">
+ 
+   <h5><center>ACTUALIZAR AGENCIA</center></h5>
+   
+   <div> 
+   <fieldset class="f1">
+    <legend>Actualizar</legend>
+    
+
+     <table>
+    @if (ViewBag.flag == 0)
+    {
+        
+        using (Html.BeginForm())
+        {
+              
+             
+         <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td><td>Nit:</td><td>@Html.TextBoxFor(a => a.nit)</td></tr> 
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono)</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email)</td></tr>
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion)</td><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado)</td></tr>
+          <tr><td>Paiz:</td><td>@Html.TextBoxFor(a => a.pais)</td><td>Ciudad:</td><td>@Html.TextBoxFor(a => a.ciudad)</td></tr>
+          <tr><td>Contacto:</td><td>@Html.TextBoxFor(a => a.contacto)</td></tr>
+            
+        }
+    }
+    else
+    {
+        using (Html.BeginForm("actualizarage", "cliente"))
+        {
+          
+          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre, new { Value = @ViewBag.nombre })</td><td>Nit:</td><td>@Html.TextBoxFor(a => a.nit, new { Value = @ViewBag.apellido })</td></tr> 
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono, new { Value = @ViewBag.telefono })</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email, new { Value = @ViewBag.email })</td></tr>
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion, new { Value = @ViewBag.direccion })</td><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado, new { Value = @ViewBag.estado })</td></tr>
+          <tr><td>Paiz:</td><td>@Html.TextBoxFor(a => a.pais, new { Value = @ViewBag.pais })</td><td>Ciudad:</td><td>@Html.TextBoxFor(a => a.ciudad, new { Value = @ViewBag.ciudad })</td></tr>
+          <tr><td>Contacto:</td><td>@Html.TextBoxFor(a => a.contacto, new { Value = @ViewBag.contacto })</td></tr>
+          <tr><td colspan ="4" > <center> <input type="submit" value="GUARDAR" ></center></td></tr> 
+           @Html.HiddenFor(a => a.id, new { Value = @ViewBag.id }) 
+        }
+    }
+      </table>
+  
+    </fieldset>
+    </div>
+   </section>  
+    
+

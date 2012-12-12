@@ -1,0 +1,56 @@
+﻿@model seminario_proyecto.Models.cliempresa
+@{
+    ViewBag.Title = "RegistrarEmpresa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+             <br/>
+             <ul>
+               <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+
+<section class="cuerpo">
+ 
+   <h5><center>REGISTRAR EMPRESA</center></h5>
+
+   <div> 
+   <fieldset class="f1">
+    <legend>Registrar</legend>
+
+     <table border="3">
+      @using (Html.BeginForm())
+      {
+          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td><td>Nit:</td><td>@Html.TextBoxFor(a => a.nit)</td></tr>
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono)</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email)</td></tr> 
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion)</td><td>Ciudad:</td><td>@Html.TextBoxFor(a=>a.ciudad)</td></tr>
+          <tr><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado)</td><td>Pais:</td><td>@Html.TextBoxFor(a => a.pais)</td></tr>
+          <tr><td>Contacto:</td><td>@Html.TextBoxFor(a => a.contacto)</td><td>Modo de Pago:</td><td>@Html.TextBoxFor(a => a.pago)</td></tr>
+         
+          
+          <tr><td colspan ="4" scope="row"> <center><input type="submit" value="REGISTRAR" ></center></td></tr> 
+      } 
+      </table>
+  
+    </fieldset>
+    </div>
+   </section>  
+    

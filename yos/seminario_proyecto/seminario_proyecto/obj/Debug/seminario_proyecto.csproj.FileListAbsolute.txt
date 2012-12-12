@@ -1,0 +1,219 @@
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+C:\Users\yoselin\documents\visual studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Documents\Visual Studio 2010\Projects\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+D:\seminario\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+D:\seminario\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+D:\seminario\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\seminario_proyecto\seminario_proyecto\bin\LumenWorks.Framework.IO.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\EntityFramework.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\LumenWorks.Framework.IO.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Optimization.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Providers.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\WebGrease.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\EntityFramework.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Net.Http.WebRequest.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Helpers.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Mvc.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\bin\System.Web.WebPages.Razor.xml
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.dll
+C:\Users\Roxana Oruro\Desktop\otro\actual\seminario_proyecto\seminario_proyecto\obj\Debug\seminario_proyecto.pdb
+C:\Users\Roxana Oruro\Desktop\seminario_proyecto\seminario_proyecto\bin\LumenWorks.Framework.IO.dll

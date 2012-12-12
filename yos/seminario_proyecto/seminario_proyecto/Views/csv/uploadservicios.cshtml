@@ -1,0 +1,104 @@
+﻿@model seminario_proyecto.Models.ArchivoFile
+@{
+    ViewBag.Title = "upload";
+}
+<style>
+     .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+</style>
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="../habitaciones/mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+          <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+                <li><a href="../csv/uploadservicios">Importar</a></li>
+                <li><a href="../csv/exportarCsvservi">Exportar</a></li>
+                
+            </ul> 
+        </div>
+        
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<h2>Importar</h2>
+<form action="../csv/upload" method="post" enctype="multipart/form-data">
+  <input type="submit" name="archivo" id="archivo" />
+  <input type="file" name="archivo" value="subir" />
+</form>
+
+
+@if (ViewBag.lista != null)
+{ 
+    <table class="tabla">
+        <tr>
+           
+            <th>Categoria</th>
+            <th>Servicios</th>
+            <th>precio</th>
+            
+        </tr>
+    
+    @foreach (var item in ViewBag.lista)
+    { 
+            <tr>
+                
+               <td>
+                @item.categoria_nombre
+               </td>
+               <td>
+                @item.servicio_nombre
+               </td>
+               <td>
+                @item.precio
+               </td>
+             
+              
+            </tr>
+    }
+    </table>
+}
+</section>

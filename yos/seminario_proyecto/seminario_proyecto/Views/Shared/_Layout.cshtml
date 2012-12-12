@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+      
+    <title>Hoteleria</title>
+
+    @Styles.Render("~/stylesheets/base.css", "~/stylesheets/base.css")
+    @Styles.Render("~/stylesheets/layout.css", "~/stylesheets/layout.css")
+    @Styles.Render("~/stylesheets/skeleton.css", "~/stylesheets/skeleton.css")
+    @Styles.Render("~/Content/cliente.css", "~/Content/cliente.css")
+        <link href="../../Content/themes/base/jquery.ui.all.css" rel="Stylesheet"/>
+        <!------@Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)------>
+        <script src="../../Scripts/jquery-1.6.2.js"></script>
+        <script src="../../Scripts/jquery-ui-1.8.11.js"></script>
+       
+</head>
+<body>
+<div class="container">
+<div id="imagen">
+	<div id="header">
+    
+          <section id="login">
+                        @Html.Partial("_LoginPartial")
+          </section>
+                    
+			<div id="content">
+		<a href="#" id="logo"><img src="../../images/nuevo.jpg" alt="" width="1024" height="200" /></a>																																																																																				
+		<!-- <span> <marquee bgcolor="#cccccc" behavior=alternate direction=TOP>
+                       <b><font color="#000000" size=5 face="Brush Script MT"><br />
+                              BIENVENIDOS A NUESTRA PAGINA </font></b></marquee></span>-->
+
+		
+		<div class="sixteen columns  ">
+
+
+            <nav class="mainmenu"> 
+			
+                		<ul>
+                            <!--
+                           <li>@Html.ActionLink("Home", "../_Layout")</li>
+                            <li><a href="#">About</a></li>                      
+						   <li><a href="#">Contactos</a></li>   -->                  
+                               <li><a href="../Dashboard" class="a-btn">
+                              <span class="a-btn-text">DashBoard</span>
+                              <span class="a-btn-slide-text">Ver</span>
+                              <span class="a-btn-icon-right">
+                                <span></span>
+                              </span>
+                            </a></li> 
+                            <li><a href="../recervas/nuevareserva" class="a-btn">
+                                          <span class="a-btn-text">Recervas</span>
+                                          <span class="a-btn-slide-text">Ver</span>
+                                          <span class="a-btn-icon-right"
+                                          </span>
+                               </a></li>
+                             
+                              <!--      
+                             @if (Request.IsAuthenticated == true)
+                            {   
+                                 if (this.User.IsInRole("administrador"))
+                                {
+                                       <text><li><a href="../cliente/mostrarcliente">Clientes</a></li></text>
+                                      <text><li><a href="../habitaciones/mostrarhabitacion">Administracion</a></li></text>
+                                        <text><li><a href="../recervas/nuevareserva">Recervas</a></li></text>
+                                      
+                                
+                                }
+                                 else
+                                 {
+                                    <li><a href="../recervas/nuevareserva">Recervas</a></li> 
+                                 }
+
+                            }
+                            -->
+                            @if (Request.IsAuthenticated == true)
+                            {   
+                                 if (this.User.IsInRole("administrador"))
+                                {
+                                       <text><li><a href="../cliente/mostrarcliente" class="a-btn">
+                                              <span class="a-btn-text">Clientes</span>
+                                              <span class="a-btn-slide-text">Ver</span>
+                                              <span class="a-btn-icon-right">
+                                                <span></span>
+                                              </span>
+                                            </a></li>
+                                        </text>
+                                      <text><li><a href="../habitaciones/mostrarhabitacion" class="a-btn">
+                                          <span class="a-btn-text">Administracion</span>
+                                          <span class="a-btn-slide-text">Ver</span>
+                                          <span class="a-btn-icon-right">
+                                            <span></span>
+                                          </span>
+                                        </a></li>
+                                        </text>
+                                      
+                                
+                                }
+                                <!-- else
+                                 {
+                                    <li><a href="../recervas/nuevareserva" class="a-btn">
+                                          <span class="a-btn-text">Recervas</span>
+                                          <span class="a-btn-slide-text">Ver</span>
+                                          <span class="a-btn-icon-right">
+                                            <span></span>
+                                          </span>
+                                        </a></li>
+                                 }
+                                 -->
+                            }
+                            
+                           
+                           
+		               </ul> 
+			        </nav>		
+       
+       
+         </div> <!-- end of menu -->
+		
+  
+
+		<!--<center><img src="images/image.jpg" alt="" width="800" height="150" /><br /></center>>-->
+	</div>
+  </div>
+  @RenderBody()
+    @RenderSection("featured", required: false)
+<div id="footer">
+		<ul>
+			<li><a href="#">Principal</a>|</li>
+
+			<li><a href="#">Acerca de</a>|</li>
+			<li><a href="#">Contactos</a>|</li>
+			<li><a href="#">Ubicacion</a>|</li>
+			
+		</ul>
+		
+	</div>  
+		
+	 </div>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

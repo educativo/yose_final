@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "mostrarmantencion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+ .tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+width: 600px;
+aling:center;
+
+}
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #571110;
+
+background-repeat: repeat-x;
+color: #ffffff;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+.letra
+{
+    font:Copperplate Gothic Bold;
+    font-size:16px;
+    
+ }
+ .ingreso
+ {
+     text-align:right;  
+   }
+
+</style>
+
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+            </ul> 
+        </div>
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<h2 class="letra"><center>Mantenciones </center></h2>
+<center>
+<table  class="tabla">
+<tr><th>Habitacion:</th><th>Desde</th><th>Hasta</th><th></th><th></th></tr>
+@foreach (var item in ViewBag.lista) {
+    string y = @item.id.ToString();
+    <tr><td>@item.idhabi</td><td>@item.fechaini</td><td>@item.fechafin</td>
+    
+    <td> @Html.ActionLink("editar", "../habitaciones/actualizarman", new { id = y})</td>
+    <td> @Html.ActionLink("eliminar", "../habitaciones/eliminar3", new { id = y})</td>
+
+    <!--
+    <td><a href="../habitaciones/actualizarman" class="editarcli"  title="Editar"><img alt="sv2" src="../../images/editar.jpg" /></a></td>
+    <td><a href="../habitaciones/eliminarman" class="eliminarcli"  title="Eliminar"><img alt="sv2" src="../../images/borrar1.jpg" /></a></td>--></tr>
+
+}
+</table>
+</center>
+<br/>
+<br/>
+<br/>
+<div class="ingreso">
+    <h5><a href="../habitaciones/regMantencion">Nuevo Mantenimiento</a></h5>
+</div>
+
+</section>

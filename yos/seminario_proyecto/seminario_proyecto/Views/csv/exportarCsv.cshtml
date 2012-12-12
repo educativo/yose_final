@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "exportarCsv";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+             <br/>
+             <ul>
+               <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/exportarCsv">Exportar</a></li>
+                
+             </ul>
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+
+<section class="cuerpo">
+<h2>Descargar</h2>
+<a href="/csv/exportar"><p>Exportar Csv</p></a>
+</section>

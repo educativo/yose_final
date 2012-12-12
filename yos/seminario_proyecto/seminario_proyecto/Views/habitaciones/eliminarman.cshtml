@@ -1,0 +1,81 @@
+﻿@model seminario_proyecto.Models.mantencion
+@{
+    ViewBag.Title = "eliminarman";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    <aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+          <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+            </ul> 
+        </div>
+        
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+
+<section class="cuerpo">
+ 
+   <center><h5>ELIMINAR MANTENIMIENTO</h5></center>
+   
+   <div> 
+   <fieldset class="f1">
+    <legend>Actualizar</legend>
+    
+
+     <table>
+    @if (ViewBag.flag == 0)
+    {
+        
+        using (Html.BeginForm())
+        {
+              <input type="submit" value="BUSCAR" >
+             
+          <tr><td>ID:</td><td>@Html.TextBoxFor(a => a.id)</td></tr> 
+          <tr><td>Fecha de Inicio:</td><td>@Html.TextBoxFor(a => a.fecha)</td></tr>
+          <tr><td>Fecha Final:</td><td>@Html.TextBoxFor(a => a.fecha2)</td></tr>
+        
+          
+           
+        }
+    }
+    else
+    {
+        using (Html.BeginForm("eliminar3", "habitaciones"))
+        {
+          
+          <tr><td>ID:</td><td>@Html.TextBoxFor(a => a.id)</td></tr> 
+          <tr><td>Fecha de Inicio:</td><td>@Html.TextBoxFor(a => a.fecha, new { Value = @ViewBag.fecha1 })</td></tr>
+          <tr><td>Fecha Final:</td><td>@Html.TextBoxFor(a => a.fecha2, new { Value = @ViewBag.fecha2 })</td></tr>
+          
+          <tr><td colspan ="4" scope="row"> <center> <input type="submit" value="Eliminar" ></center></td></tr> 
+          @Html.HiddenFor(a => a.id, new { Value = @ViewBag.id }) 
+        }
+    }
+      </table>
+  
+    </fieldset>
+    </div>
+   </section>
+   

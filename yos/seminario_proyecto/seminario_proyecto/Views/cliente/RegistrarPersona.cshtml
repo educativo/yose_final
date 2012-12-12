@@ -1,0 +1,100 @@
+﻿@model seminario_proyecto.Models.clipersona
+
+
+
+@{
+    ViewBag.Title = "RegistrarPersona";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+ @Styles.Render("~/stylesheets/layout.css", "~/stylesheets/layout.css")
+<script>
+    $(document).ready(function () {
+        $("#cumple").datepicker();
+
+       /* $(".btn ").click(function (e) {
+            e.preventDefault();
+            $("#ventana").html($(this).attr("msn") + "<img src='../images/ok.jpg'/>");
+            $("#ventana").dialog();
+        });*/
+    });
+</script>
+
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="mostrarcliente">PERSONA</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../csv/upload">Importar</a></li>
+                <li><a href="../csv/upload">Exportar</a></li>
+                
+             </ul>
+        </div>
+         <div>
+         <h5><a href="../cliente/mostraragencia">AGENCIA</a></h5>
+          <br/>  
+        </div>
+        <div>
+        <h5><a href="../cliente/mostrarempresa">EMPRESA</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+  <section class="cuerpo">
+ 
+   <center><h5>REGISTRAR PERSONA</h5></center>
+
+       <div> 
+   <fieldset class="f1">
+    <legend></legend>
+
+     <table>
+      @using (Html.BeginForm())
+      {
+          <tr><td>Nombre:</td><td>@Html.TextBoxFor(a => a.nombre)</td><td>Apellido:</td><td>@Html.TextBoxFor(a => a.apelli)</td></tr> 
+          <tr><td>Telefono:</td><td>@Html.TextBoxFor(a => a.telefono)</td><td>Pasaporte:</td><td>@Html.TextBoxFor(a => a.pasaporte)</td></tr>
+          <tr><td>Direccion:</td><td>@Html.TextBoxFor(a => a.direccion)</td><td>Email:</td><td>@Html.TextBoxFor(a => a.email)</td></tr>
+          <tr><td>Pais:</td><td>
+                <select id="pais" name="pais"> 
+            
+                <option id="Argentina" >
+                    Argentina
+                </option>
+                <option id="Bolivia" selected >
+                    Bolivia
+                </option>
+                <option id="Peru" >
+                    Peru
+                </option>
+                <option id="Paraguay" >
+                    Paraguay
+                </option>
+                <option id="Uruguay" >
+                    Uruguay
+                </option>
+                <option id="Venezuela" >
+                    Venezuela
+                </option>
+                <option id="Colombia" >
+                    Colombia
+                </option>
+                
+        </select> </td>
+        <td>Ciudad:</td><td>@Html.TextBoxFor(a => a.ciudad)</td></tr>
+          <tr><td>Estado:</td><td>@Html.TextBoxFor(a => a.estado)</td><td>Fecha Nacimiento:</td><td>@Html.TextBoxFor(a => a.cumple)</td></tr>
+          <tr><td>Comentario:</td><td>@Html.TextAreaFor(a => a.comen)</td></tr>
+          <tr><td colspan ="4"><center> <input type="submit" value="REGISTRAR"></center></td></tr> 
+      } 
+      </table>
+  
+    </fieldset>
+    </div>
+   </section>  
+    
+     

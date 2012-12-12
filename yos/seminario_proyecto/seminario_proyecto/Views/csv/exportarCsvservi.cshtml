@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "exportarCsv";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<aside>
+<br/>
+<center>
+  <div id="menuv">
+        <div>
+          <h5><a href="../habitaciones/mostrarhabitacion">HABITACION</a></h5>
+          <br/>
+             <ul>
+                <li><a href="../habitaciones/mostrartipo">Tipos</a></li>
+                <li><a href="../habitaciones/mostrarmantencion">Mantenciones</a></li>
+                
+             </ul>
+        </div>
+          <div>
+         <h5><a href="../servicios/regservicios">SERVICIOS</a></h5>
+          <br/> 
+            <ul>
+                <li><a href="../servicios/regcategoria">Categorias</a></li>
+                <li><a href="../csv/uploadservicios">Importar</a></li>
+                <li><a href="../csv/exportarCsvservi">Exportar</a></li>
+                
+            </ul> 
+        </div>
+        
+        <div>
+        <h5><a href="../Administrador/getUserRoles">USUARIOS ROLES</a></h5>    
+            
+        </div>
+      
+        
+  </div>
+  </center> 
+</aside>
+
+<section class="cuerpo">
+<h2>Descargar</h2>
+<a href="/csv/exportarservi"><p>Exportar Csv</p></a>
+</section>
